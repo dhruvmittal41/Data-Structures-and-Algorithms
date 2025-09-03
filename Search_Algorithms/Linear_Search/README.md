@@ -4,14 +4,10 @@ LINEAR SEARCH
 - Worst Case Time Complexity is O(n) when we have to traverse till the last element of array.
 
 
-Algorithmic Intuition 
-```mermaid
-        graph TD;
-            INPUT-->Array;
-            INPUT-->SearchNumber;
-            INPUT-->LinearSearchFunction
-            LinearSearchFunction-->D;
-            C-->D;
-```
+Algorithmic Intuition:
+
+-To be updated soon!!
+
+
 
 
