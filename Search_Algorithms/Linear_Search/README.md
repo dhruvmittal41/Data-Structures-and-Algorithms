@@ -5,10 +5,11 @@ LINEAR SEARCH
 
 
 Algorithmic Intuition 
-
+```mermaid
         graph TD;
             A-->B;
             A-->C;
             B-->D;
             C-->D;
+```
 
