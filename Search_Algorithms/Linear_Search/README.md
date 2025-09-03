@@ -7,9 +7,11 @@ LINEAR SEARCH
 Algorithmic Intuition 
 ```mermaid
         graph TD;
-            A-->B;
-            A-->C;
-            B-->D;
+            INPUT-->Array;
+            INPUT-->SearchNumber;
+            INPUT-->LinearSearchFunction
+            LinearSearchFunction-->D;
             C-->D;
 ```
+
 
