@@ -3,16 +3,25 @@
 
 int LinearSearch(int *arr, int Snum)
 {
+    int count;
     for (int j = 0; j <= (sizeof(arr)); j++)
     {
 
         if (arr[j] == Snum)
         {
-            return j;
+            std::cout << "\n"
+                      << Snum << " found at index : " << j << " :)";
+            count++;
         }
     }
-
-    return -1;
+    if (count == 0)
+    {
+        return -1;
+    }
+    else
+    {
+        return 0;
+    }
 }
 
 int main()
@@ -41,12 +50,7 @@ int main()
 
     int result = LinearSearch(arr, Snum);
 
-    if (result >= 0)
-    {
-        std::cout << "\n"
-                  << Snum << " found at index : " << result << " :)";
-    }
-    else
+    if (result < 0)
     {
         std::cout << "\n"
                   << Snum << " not found ._.";
