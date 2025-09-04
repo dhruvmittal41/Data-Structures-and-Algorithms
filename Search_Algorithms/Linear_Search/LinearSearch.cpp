@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <iostream>
 
-int LinearSearch(int *arr, int Snum)
+int LinearSearch(int *arr, int Snum, int size)
 {
     int count;
-    for (int j = 0; j <= (sizeof(arr)); j++)
+    for (int j = 0; j < size; j++)
     {
 
         if (arr[j] == Snum)
@@ -48,7 +48,7 @@ int main()
     std::cin >> Snum;
     std::cout << "Performing Linear Search For " << Snum << " .....";
 
-    int result = LinearSearch(arr, Snum);
+    int result = LinearSearch(arr, Snum, size);
 
     if (result < 0)
     {
